@@ -4,10 +4,34 @@ header {
     height: 200px;
     background-color: rgb(122, 16, 0);
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .header-title {
     text-align: left;
     font-size: 50px;
-    padding: 70px;
+    padding: 30px 50px;
+    display: inline-block;
+}
+
+.header-link {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.hero-image {
+    background-image: url(../Resources/20240626_111238.jpg);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    text-align: center;
+    padding-top: 400px;
+    font-size: 50px;
 }
