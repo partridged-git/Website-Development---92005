@@ -1,7 +1,7 @@
 header {
     display: block;
     width: 100%;
-    height: 200px;
+    height: 120px;
     background-color: rgb(122, 16, 0);
     width: 100%;
     margin: 0;
@@ -13,6 +13,8 @@ header {
     font-size: 50px;
     padding: 30px 50px;
     display: inline-block;
+    text-decoration: none;
+    color: black;
 }
 
 .header-link {
@@ -20,6 +22,7 @@ header {
     color: black;
     font-size: 30px;
     display: inline-block;
+    padding: 20px;
 }
 
 .hero-image {
@@ -28,10 +31,31 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 .hero-text {
     text-align: center;
     padding-top: 400px;
     font-size: 50px;
+}
+
+body {
+    background-color: rgb(rgb(235 235 235));
+}
+
+.two-block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.card1 {
+    width: 700px;
+    height: 500px;
 }
