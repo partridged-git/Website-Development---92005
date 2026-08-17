@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@500&display=swap');
+
 header {
     display: block;
     width: 100%;
@@ -42,7 +44,7 @@ header {
 }
 
 body {
-    background-color: rgb(rgb(235 235 235));
+    background-color: #858585;
 }
 
 .two-block {
@@ -56,6 +58,25 @@ body {
 }
 
 .card1 {
+    border-style: solid;
+    border-width: 6px;
+    background-color: #7a1000;
+}
+
+.card1-img {
     width: 700px;
     height: 500px;
+    border-style: none none solid none;
+    border-width: 5px;
+}
+
+.card1-text {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    width: 700px;
+    padding: 10px 0px;
+        background-color: #7a1000;
 }
