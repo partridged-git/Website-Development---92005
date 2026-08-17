@@ -17,6 +17,7 @@ header {
     display: inline-block;
     text-decoration: none;
     color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .header-link {
@@ -25,6 +26,7 @@ header {
     font-size: 30px;
     display: inline-block;
     padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .hero-image {
@@ -41,10 +43,13 @@ header {
     text-align: center;
     padding-top: 400px;
     font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
     background-color: #858585;
+    margin: 0;
+    padding: 0;
 }
 
 .two-block {
@@ -78,5 +83,6 @@ body {
     display: block;
     width: 700px;
     padding: 10px 0px;
-        background-color: #7a1000;
+    background-color: #7a1000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
